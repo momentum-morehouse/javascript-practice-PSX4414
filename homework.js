@@ -1,4 +1,3 @@
-
 // 1. Create a function called "remove" that takes an array and a potential
 // member of the array, and returns a new array with that member removed.
 // For example, `remove(['Cadence', 'Ordel', 'Marion'], 'Marion')` results
@@ -15,6 +14,8 @@
 
 // 4. Create a function called "average" that takes an array of numbers
 // and returns the average of those numbers.
+funtion (average) 
+
 
 // 5. Create a function called "minimum" that takes an array of numbers and
 // returns the smallest number in that array.
@@ -48,4 +49,22 @@
 //
 // For example, `textList(['Cadence', 'Ordel', 'Marion'])` results in the string
 // `"Cadence,Ordel,Marion"`.
+
+
+
+// 1. Set the variable `givenName` to the string "Addison".
+let givenName = "Addison"
+
+// 2. Set the variable candies equal to 20, the variable people to 6, and the variable leftover equal
+// to the remainder of dividing 20 by 6.
+let candies = 20
+let people = 6
+let leftover = candies % people
+
+// 3. Create a function called greeting that returns "Hello, <name>!",
+// where <name> is the name given as an argument to the function.
+function greeting (name) {
+  let myGreeting = "Hello, " + name + "!"
+  console.log("The greeting function is about to return " + myGreeting)
+  return myGreeting
 
